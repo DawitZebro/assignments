@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); 
+}
+
+.profile-intro {
+  font-size: 18px;
+  color: #0a0101c9;
+  margin-bottom: 20px;
+}
+
+.hobbies-container {
+  text-align: center;
+}
+
+.hobbies-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobbies-item {
+  margin-bottom: 10px;
+}
